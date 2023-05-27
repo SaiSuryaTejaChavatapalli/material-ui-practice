@@ -1,15 +1,16 @@
-
-import './App.css'
-import MuiButton from './components/MuiButton'
+import "./App.css";
+import MuiTextField from "./components/MuiTextField";
+// import MuiButton from './components/MuiButton'
 // import TypographyPractice from './components/TypographyPractice'
 
 function App() {
   return (
     <>
-     {/* <TypographyPractice/> */}
-     <MuiButton/>
+      {/* <TypographyPractice/> */}
+      {/* <MuiButton/> */}
+      <MuiTextField />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
