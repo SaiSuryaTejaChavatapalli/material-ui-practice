@@ -1,11 +1,13 @@
 
 import './App.css'
-import TypographyPractice from './components/TypographyPractice'
+import MuiButton from './components/MuiButton'
+// import TypographyPractice from './components/TypographyPractice'
 
 function App() {
   return (
     <>
-     <TypographyPractice/>
+     {/* <TypographyPractice/> */}
+     <MuiButton/>
     </>
   )
 }
